@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.1.17](https://github.com/AlexsJones/llmfit/compare/v1.1.16...v1.1.17) (2026-10-04)
+
+
+### Features
+
+* **cli:** add --memory-percent and --ram-percent overrides ([#1089](https://github.com/AlexsJones/llmfit/issues/1089)) ([17d45bd](https://github.com/AlexsJones/llmfit/commit/17d45bd667bb9cca95008182e07852d2208087c1))
+
+
+### Bug Fixes
+
+* **api:** make include_too_tight=true return too_tight rows ([#1087](https://github.com/AlexsJones/llmfit/issues/1087)) ([cbd30d7](https://github.com/AlexsJones/llmfit/commit/cbd30d7d512885c1eff2e545da37c09f2768963c))
+* **fit:** make ranking deterministic across runs ([#1066](https://github.com/AlexsJones/llmfit/issues/1066)) ([f2eafd0](https://github.com/AlexsJones/llmfit/commit/f2eafd0797ac5424c9663c03fbd218f1c3679364))
+* **hardware:** treat an Intel adapter with no series name as integrated ([#1100](https://github.com/AlexsJones/llmfit/issues/1100)) ([c299bc5](https://github.com/AlexsJones/llmfit/commit/c299bc5f891d2b57e5f79aa8915fe1406876ddaa))
+* **models:** prefer name-declared size when scraped params are implausible ([#925](https://github.com/AlexsJones/llmfit/issues/925)) ([f433cf6](https://github.com/AlexsJones/llmfit/commit/f433cf6737e8ffd34f23201f3a8d39d90e09e158))
+
+
+### Performance Improvements
+
+* **hardware:** run lspci once per process ([#1065](https://github.com/AlexsJones/llmfit/issues/1065)) ([0728894](https://github.com/AlexsJones/llmfit/commit/0728894b93e0ec0dd2b3e6aff178e34268b42cda))
+* **tui:** optimize model search filtering in apply_filters for 40%+ speedup ([#934](https://github.com/AlexsJones/llmfit/issues/934)) ([ca864d0](https://github.com/AlexsJones/llmfit/commit/ca864d0977460042dd08831659f21b8463514e8b))
+
 ## [1.1.16](https://github.com/AlexsJones/llmfit/compare/v1.1.15...v1.1.16) (2026-09-19)
 
 
